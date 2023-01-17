@@ -98,3 +98,5 @@ Hold	| 4˚C	Hold | 0 sec
 **Culture:** It is expected that no colonies will form. Most detection should be spotted within ~2 days; however, give up to 5 days for contamination to become visible. If plates drying out becomes an issue, place them in a plastic bag with a wet papertowel for extended incubation. The broth culture should not become turbid.
 
 **qPCR:** Quantitative comparison of germ-free mice against negative extraction controls should be conducted. It is expected that germ-free mice should have a Ct no more than 1 cycle greater than negative controls. The Positive control should amplify between cycles 10-15. **Note: all DNA extraction/PCR reagents contain trace microbial DNA, and as such, amplification is always expected in the cycle range ~33-38.
+
+**In the event of positive test:** Retest immediately and/or send culture for Sanger 16S rRNA sequencing or MALDI-TOF. 
