@@ -46,6 +46,7 @@ Fill me In
 |Opentrons OT-2 with gen 2 Magnetic module, 20ul single channel, 300ul multichannel, and tube rack.|-|-|
 |Anaerobic Chamber with >0% CO2 or Anaerobic Jar|-|-|
 |37˚C Degree Incubator|-|-|
+|PCR Laminar Flow Hood|-|-|
 
 **Table 5.1: Oligos**
 |Oligo|Sequence|Stock [µM]|Working [µM]|Final [nM]|
