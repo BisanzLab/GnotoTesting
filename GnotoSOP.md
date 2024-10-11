@@ -8,11 +8,7 @@ This SOP applies to any personnel involved in the testing of the isolators.
 
 The purpose of this procedure is to maintain consistency in the testing of isolators to avoid contaminating the results and to maintain sterility. Sterility is tested both through aerobic and anaerobic culture, as well as quantitative PCR as a culture independent method.
 
-## 3. References
-
-Fill me In
-
-## 4. Definitions
+## 3. Definitions
 
 |Term|Definition|
 |-|-|
@@ -48,7 +44,7 @@ Fill me In
 |37˚C Degree Incubator|-|-|
 |PCR Laminar Flow Hood|-|-|
 
-**Table 5.1: Oligos**
+**Table 5.1: Oligos in 10X Assay Mix**
 |Oligo|Sequence|Stock [µM]|Working [µM]|Final [nM]|
 |-|-|-|-|-|
 |891F|TGGAGCATGTGGTTTAATTCGA|100|2|200|
@@ -62,7 +58,7 @@ All isolators housing mice will be tested on a monthly basis, either during the 
 
 
 ### 5A Sampling Isolators
-- [ ] Sterilize external surface of MST using ExSpore Prepared as per Exspore SOP (1:4:1 base:water:actuvator made >15min <24h ahead of time) and transfer into isolator to be tested allowing for at least 45 minutes contact time as per *Entering Supplies SOP*.
+- [ ] Sterilize external surface of MST using ExSpore Prepared as per Exspore SOP (1:4:1 base:water:activator made >15min <24h ahead of time) and transfer into isolator to be tested allowing for at least 45 minutes contact time as per *Entering Supplies SOP*.
 - [ ] Dry any remaining sterilant from MST and open packaging.
 - [ ] Swab any surfaces which mice may forseeably contact including inside of cages, wire racks, and fecal collection containers.
 - [ ] Swab mold trap (small cup containing water and food which may be left in isolator to test for mold contamination).
@@ -74,15 +70,29 @@ All isolators housing mice will be tested on a monthly basis, either during the 
 
 ### 5B Culture Testing
 - [ ] On lab bench working by flame (or in BSC) vortex MST to homogenize fecal samples into transport media. Clean work space with 70% ethanol before use.
-- [ ] Remove swab and use quadrant streak method to innoculate a TSB plate and BHI CHVR plate.
-- [ ] Transfer the swab to a 15 mL conical tube containing 5 mL of BHI CHVR liquid media
-- [ ] Transfer TSB plate to 37˚C aerobic incubator
-- [ ] Transfer BHI CHVR plate and broth culture into 37˚C anaerobic incubator
+- [ ] Remove one swab and dab inoculum on to TSB plate and BHI CHVR plate. Use four quadrant streak method to spread swab contents over plate.
+- [ ] Remove second swab and dab inocolum into two different tubes of 5mL BHI CHVR liquid media in 15mL tube
+- [ ] Transfer TSB plate and one liquid culture to 37˚C aerobic incubator. Incubate liquid culture with shaking
+- [ ] Transfer BHI CHVR plate and second liquid culture to 37˚C anaerobic incubator.
 - [ ] Proceed to qPCR testing
 
 ### 5C qPCR Testing
+- [ ] Transfer 200 ul of liquid contents of MST into bead beating tube.
+- [ ] Follow [protocol for DNA extraction using zymo kit](https://github.com/bisanzlab/AmpliconSeq/blob/master/wetlab_protocols/1_DNAExtraction.md)
+- [ ] Using eluted DNA set up qPCR rxns in 384 well plates according to volumes listed in Table 5.2
+- [ ] Run qPCR with detection set for FAM probe according to parameters in Table 5.3.
 
-**Table 5.2: qPCR Cycling Parameters**
+
+**Table 5.2: qPCR reaction volumes**
+|Component|[stock]|µL/rxn|[final]|
+|-|-|-|-|
+|iTaq Probes Supermix|2X|5|1X|
+|10X assay mix|2µM|1|200nM|
+|Water|-|2|-|
+|DNA template|variable|2|varable|
+
+
+**Table 5.3: qPCR Cycling Parameters**
 Cycle |	Temperature (˚C)  | Time
 ------|-------------------|------
 Initial Denaturation   |	95	| 5min
@@ -93,10 +103,11 @@ Anneal/Extend | 60˚C	| 15 sec
 ||
 Hold	| 4˚C	Hold | 0 sec
 
+
 ## Expected Results:
 
 **Culture:** It is expected that no colonies will form. Most detection should be spotted within ~2 days; however, give up to 5 days for contamination to become visible. If plates drying out becomes an issue, place them in a plastic bag with a wet papertowel for extended incubation. The broth culture should not become turbid.
 
-**qPCR:** Quantitative comparison of germ-free mice against negative extraction controls should be conducted. It is expected that germ-free mice should have a Ct no more than 1 cycle greater than negative controls. The Positive control should amplify between cycles 10-15. **Note: all DNA extraction/PCR reagents contain trace microbial DNA, and as such, amplification is always expected in the cycle range ~33-38.
+**qPCR:** Quantitative comparison of germ-free mice against negative extraction controls should be conducted. It is expected that germ-free mice should have a Ct no more than 1 cycle greater than negative controls. The Positive control should beging to amplify between cycles 10-15. **Note: all DNA extraction/PCR reagents contain trace microbial DNA, and as such, amplification is always expected in the cycle range ~33-38. If samples do not amplify in this range, it is an indication of carry over ethanol from reaction. Sample should be diluted 100x and re-assayed.
 
 **In the event of positive test:** Retest immediately and/or send culture for Sanger 16S rRNA sequencing or MALDI-TOF. 
