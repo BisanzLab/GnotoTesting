@@ -27,7 +27,7 @@ The purpose of this procedure is to maintain consistency in the testing of isola
 |Item|Storage|Ordering Information|
 |-|-|-|
 |Microbial Swab Test|RT| |
-|TSB agar|4˚C| See [recipe](https://github.com/BisanzLab/LabProtocols/blob/main/BacterialMedia.md)|
+|TSB agar|4˚C| See [recipe](https://github.com/BisanzLab/LabProtocols/blob/main/BacterialMedia.md) OR VWR 470180-680|
 |BHI CHVR agar and broth|4˚C| See [recipe](https://github.com/BisanzLab/LabProtocols/blob/main/BacterialMedia.md)|
 |Oligos|-20˚C|See Table 5.1|
 |ZymoBIOMICS 96 MagBead DNA Kit|RT|Zymo D4302 OR D4308|
